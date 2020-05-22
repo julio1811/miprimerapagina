@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Light Theme</title>
+<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.container #about .text_column {
+    font-family: source-sans-pro, sans-serif;
+}
+body,td,th {
+    font-style: italic;
+    color: #FDF7F7;
+    font-size: 18px;
+}
+.container #about .text_column strong {
+    font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.container #about .text_column strong {
+    font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+}
+.container #about .text_column strong {
+    font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black, sans-serif;
+}
+.container #about .text_column strong {
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    font-family: source-sans-pro;
+    color: #000000;
+}
+body {
+    margin-top: 15px;
+}
+</style>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Navigation -->
+  <header> <a href="">
+    </a>
+    <nav class="footer_banner">
+      <ul>
+        <li><a href="#hero">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li> <a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  <img src="../Desktop/logo umg.png" width="161" height="152" alt=""/></header>
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+<h2 class="hero_header">JULIO <span class="light">MELGAR</span></h2>
+<p>&nbsp;</p>
+<p class="tagline">INGENIERIA EN SISTEMAS, UNIVERSIDAD MARIANO GALVEZ DE GUATEMALa</p>
+  </section>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2 class="hidden">About</h2>
+    <h1 class="text_column"><strong>A continuación, les presento mi primera página web, el curso de introducción a los sistemas de cómputo me solicita la creación de la misma.&nbsp; </strong></h1>
+    <p class="text_column">&nbsp;&nbsp; </p>
+    <p class="text_column">&nbsp; </p>
+  </section>
+  <!-- Stats Gallery Section -->
+  <!-- About Section -->
+    <div class="thumbnail">
+      <p>&quot;Arte y técnica de aplicar los conocimientos científicos a la invención, diseño, perfeccionamiento y manejo de nuevos procedimientos en la industria y otros campos de aplicación científicos.&quot;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp; </p>
+      <h4><span style="font-size: 16px; font-family: source-sans-pro;">&quot;La <strong>ingeniería</strong> es el conjunto de conocimientos científicos y tecnológicos para la innovación, invención, desarrollo y mejora de técnicas y herramientas para satisfacer las necesidades y resolver problemas tanto de las personas, así como de la sociedad.</span>&quot;</h4>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+  </div>
+    <div class="thumbnail">
+      <p>Su función principal es la de realizar diseños o desarrollar soluciones tecnologicas necesidades sociales, industriales o económicas. Para ello el ingeniero debe identificar y comprender los obstáculos más importantes para poder realizar un buen diseño. Algunos de los obstáculos son los recursos disponibles, las limitaciones físicas o técnicas, la flexibilidad para futuras modificaciones y adiciones y otros factores como el coste, la posibilidad de llevarlo a cabo, las prestaciones y las consideraciones estéticas y comerciales. Mediante la comprensión de los obstáculos, los ingenieros deciden cuáles son las mejores soluciones para afrontar las limitaciones encontradas cuando se tiene que producir y utilizar un objeto o sistema.     </p>
+      <p>&nbsp;</p>
+      <h4>&nbsp;</h4>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+  </div>
+</div>
+  <!-- Parallax Section --><!-- More Info Section -->
+<footer></footer>
+  <!-- Footer Section -->
+  <section class="footer_banner" id="contact">
+    <h2 class="hidden">Footer Banner Section </h2>
+    <p class="hero_header">
+      <label for="textfield"><span style="font-size: 18px">NOMBRES</span>:</label>
+      <input type="text" name="textfield" id="textfield">
+    </p>
+    <p class="hero_header">
+      <label for="textfield2"><span style="font-size: 18px">APELLIDOS</span>:</label>
+      <input name="textfield2" type="text" required="required" id="textfield2">
+    </p>
+    <p class="hero_header">
+      <label for="email"><span style="font-size: 24px">Email</span>:</label>
+      <input type="email" name="email" id="email">
+    </p>
+    <p class="hero_header">
+      <label for="tel"><span style="font-family: source-sans-pro; font-size: 24px;">Tel</span>:</label>
+      <input type="tel" name="tel" id="tel">
+    </p>
+    <p class="hero_header">
+      <input name="submit" type="submit" id="submit" formmethod="GET" value="Enviar">
+    </p>
+    <div class="button">subscribe</div>
+  </section>
+  <!-- Copyrights Section -->
+<div class="copyright">&copy;2020- <strong>DERECHOS RESERVADOS</strong></div>
+</div>
+<!-- Main Container Ends -->
+</body>
+</html>
